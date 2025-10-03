@@ -1,86 +1,18 @@
-CardmakerV2
+# CardmakerV2
 
 A Flask-based web application that creates custom greeting cards by removing image backgrounds and adding personalized text overlays.
 
-✨ Features
+## Features
 
-Background Removal: Automatically removes backgrounds from uploaded images
+- **Background Removal**: Automatically removes backgrounds from uploaded images  
+- **Custom Text**: Add wishes and name text with customizable font sizes  
+- **Random Styling**: Applies random colors and effects to text for visual variety  
+- **Responsive Design**: Works on desktop and mobile devices  
+- **Dark Theme**: Modern dark UI with smooth animations  
 
-Custom Text: Add wishes and name text with customizable font sizes
+## Setup Instructions
 
-Random Styling: Applies random colors and effects to text for visual variety
-
-Responsive Design: Works on desktop and mobile devices
-
-Dark Theme: Modern dark UI with smooth animations
-
-📦 Installation & Setup
-
-Clone the Repository
-
-git clone https://github.com/hemanthanala1/cardmaker.git
-cd cardmaker
-
-
-Install Dependencies
-
-pip install -r requirements.txt
-
-
-Run the Application
-
-python app.py
-
-
-Open in Browser
-
-http://localhost:5000
-
-🖥️ Usage
-
-Upload an image (JPG, PNG, etc.)
-
-Enter your wishes text (e.g., Happy Birthday)
-
-Enter the recipient's name
-
-Adjust font sizes using the sliders
-
-Choose single or double line layout
-
-Click Generate Card to create your custom card
-
-Download the result as a JPG file
-
-⚙️ Technical Details
-
-Backend: Flask + rembg (background removal)
-
-Frontend: Vanilla JavaScript + modern CSS
-
-Image Processing: PIL/Pillow for text overlays
-
-Font: Anton Regular (included)
-
-📂 Project Structure
-CardmakerV2/
-├── app.py              # Flask backend
-├── requirements.txt    # Dependencies
-├── Anton-Regular.ttf   # Font file
-├── static/
-│   ├── style.css       # Styling
-│   └── script.js       # Frontend logic
-└── templates/
-    └── index.html      # Main UI
-
-🛠️ Requirements
-
-Python 3.7+
-
-Flask
-
-rembg
-
-Pillow
-
-Flask-CORS
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/hemanthanala1/cardmaker.git
+   cd cardmaker
